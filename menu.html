@@ -1,49 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Our Menu - Delicious Eats</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <div id="header">
-        <h1>Our Menu</h1>
-        <img src="images/logo.jpg" height="200">
+    <a href="#main-content" class="skip-link">Skip to Content</a>
+
+            <!-- nav bar -->
+     <nav>
+        <div class="nav-left">
+            <img src="images/logo.jpg" class= "nav-img" alt="Delicious Eats Logo">   
+            <div class="nav-link">
+                <a href="index.html">Home</a> 
+                <a href="menu.html">Menu</a> 
+                <a href="#">Order Now</a>
+                <a href="#">Contact us</a>
+            </div>
+        </div>
+        <div class="nav-buttons">
+             <a href="#" class="nav-btn">ORDER DELIVERY</a>
+             <a href="#" class="nav-btn">BOOK A TABLE</a>
+        </div>
+    </nav>
+    <div class="hero-sec">
+        <div class="hero-content">
+          <div class="food-img"></div>
+           <div class="hero-text">
+              <h1 class="welcome">Welcome to Delicious Eats</h1>
+              <p class="description">Great food, friendly faces, and flavors you’ll never forget.<br> Pull up a chair — we’ve saved you a seat.</p>
+               <div class="nav-buttons">
+                   <a href="#" class="hero-btn">BOOK A TABLE</a>
+                </div>   
+            </div>
+        </div>
+        
     </div>
-    <div id="nav">
-        <a href="index.html">Home</a> |
-        <a href="menu.html">Menu</a> |
-        <a href="#">Contact</a>
-    </div>
-    <div id="content">
-        <table border="0">
-            <tr>
-                <td>
-                    <h3>Appetizers</h3>
-                    <p>Delicious starters to begin your meal.</p>
-                    <img src="images/dish1.jpg" width="400">
-                </td>
-                <td>
-                    <h3>Main Courses</h3>
-                    <p>Satisfying entrees to delight your palate.</p>
-                    <img src="images/dish2.jpg" width="400">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Desserts</h3>
-                    <p>Sweet treats to finish your dining experience.</p>
-                    <img src="images/dish3.jpg" width="400">
-                </td>
-                <td>
-                    <h3>Beverages</h3>
-                    <p>A selection of drinks to complement your meal.</p>
-                    <img src="images/dish4.jpg" width="400">
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div id="footer">
+    <!-- Main content -->
+    
+    <main id="main-content">
+        
+     <section class="container">
+        
+        <div class="box">
+            <h3>APPETIZERS</h3>   
+            <div class="menu-box">
+                <img class="menu-img" src="images/dish1.jpg" alt="Appetizers">
+            </div>
+             <p>Delicious starters to begin your meal.</p>
+        </div>
+        
+        <div class="box">
+            <h3>MAIN COURSES</h3>   
+            <div class="menu-box">
+                <img class="menu-img" src="images/dish2.jpg" alt="Main Courses">
+            </div>
+             <p>Satisfying entrees to delight your palate.</p>
+        </div>
+
+        <div class="box">
+            <h3>DESSERTS</h3>
+            <div class="menu-box">
+                <img class="menu-img" src="images/dish3.jpg" alt="Desserts">
+            </div>
+             <p>Sweet treats to finish your dining experience.</p>
+        </div>
+
+        <div class="box">
+            <h3>BEVERAGES</h3>   
+            <div class="menu-box">
+                <img class="menu-img" src="images/dish4.jpg" alt="Beverages">
+            </div>
+            <p>A selection of drinks to complement your meal.</p>
+        </div>
+
+        <div class="box">
+            <h3>SOUP</h3>   
+            <div class="menu-box">
+                <img class="menu-img" src="images/dish5soup.jpg" alt="soup">
+            </div>
+            <p>Light or hearty – comfort in every sip.</p>
+        </div>
+
+        <div class="box">
+            <h3>CHOUDER</h3>   
+            <div class="menu-box">
+                <img class="menu-img" src="images/dish6chowder.jpg" alt="chowder">
+            </div>
+            <p>Rich, creamy bowls to warm you up.</p>
+        </div>
+
+        <div class="box">
+            <h3>MEATLESS</h3>   
+            <div class="menu-box">
+                <img class="menu-img" src="images/dish7meatless.jpg" alt="meatless">
+            </div>
+            <p>Tasty vegetarian bites packed with flavor.</p>
+        </div>
+
+        <div class="box">
+            <h3>HEARTY MEALS</h3>   
+            <div class="menu-box">
+                <img class="menu-img" src="images/food8.jpeg" alt="hearty meals">
+            </div>
+            <p>Big flavors. Bigger satisfaction.</p>
+        </div>
+  
+      </section>  
+    </main>
+    <!-- Footer -->
+    <footer>
         <p>&copy; 2023 Delicious Eats</p>
-    </div>
+    </footer>
+    
 </body>
 </html>
