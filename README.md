@@ -1,4 +1,4 @@
-# 🍽Restaurant Website Redesign
+# Restaurant Website Redesign
 
 A modern, responsive redesign of an outdated restaurant website using HTML5, CSS3 (Flexbox & Grid).
 
